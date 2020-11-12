@@ -35,7 +35,7 @@ public class Main {
 
 
     private static <T> T[] changeElements(T[] array, int i, int j) throws Exception {
-        if (i < array.length || j < array.length) {
+        if (i < array.length && j < array.length) {
             T tempElement = array[i];
             array[i] = array[j];
             array[j] = tempElement;
