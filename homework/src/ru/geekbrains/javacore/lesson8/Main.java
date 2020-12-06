@@ -1,11 +1,6 @@
 package ru.geekbrains.javacore.lesson8;
 
-import java.util.Arrays;
-
 public class Main {
-
-    public static final int SIZE = 10;
-
     public static void main(String[] args) {
 
         int[][] array = new int[SIZE][SIZE];
