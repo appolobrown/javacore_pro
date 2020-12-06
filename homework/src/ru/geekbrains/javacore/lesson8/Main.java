@@ -20,7 +20,7 @@ public class Main {
     public static void fillMatrix(int[][] matrix) {
         int iCol = matrix.length;
         int max = 0;
-        int counter = 0;
+        int counter = 1;
         while (Math.round((double) iCol / 2) > 0) {
             for (int i = 0; i < 4; i++) {
                 for (int j = 0; j < iCol; j++) {
